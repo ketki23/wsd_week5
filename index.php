@@ -91,7 +91,7 @@ class homepage extends page
         $form .= '<input type="submit" value="Upload File" name="submit">';
         $form .= '</form> ';
         $this->html .= '<h2>Upload Form</h2>';
-        $this->html .= '<h2>Choose csv file to upload</h2>';
+        $this->html .= '<h3>Choose csv file to upload</h3>';
         $this->html .= $form;
 
     }
