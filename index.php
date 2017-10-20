@@ -114,10 +114,10 @@ class htmlTable extends page
     {
         $html="";
         $change = fopen($_GET['filename'], "r");// reading the csv file
-        $html.='<table border="1">';
+        $html.='<table border="3">';
         while (!feof($change)) // reading till the end of the file
         {
-            $var=fgetcsv($change); // reading the contents of the file
+            $var=fgetcsv($change); 
             $counter=count($var);
             $html.='<tr>';
             for($i=0;$i<$counter;$i++)
